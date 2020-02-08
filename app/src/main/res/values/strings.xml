@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Easy Reader 3</string>
+    <string name="exampleEmail">example@gmail.com</string>
+    <string name="example_age">(22года)</string>
+    <string name="example_name">Дмитрий Стручин</string>
+    <string name="it_title">Пример заголовка</string>
+    <string name="it_text">Это максимально большая строка для данного элемента. Можно было бы еще больше, но тогда экран Reader не имеет смысла. Я не шучу. зачем он нужен, если весь текст можно просмотреть из окна выбора текста. И еще чуть-чуть...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

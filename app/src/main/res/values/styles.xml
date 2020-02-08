@@ -1,11 +1,91 @@
 <resources>
-
+<!--именование стилей с ER кэмел кэйс, именование строк снаке кейс , именование -->
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyInfo">
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MyText">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <style name="MyTitle">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorTextMainDark</item>
+        <item name="android:textColorLink">@color/colorTextLinkDark</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text_input_layout">
+        <item name="android:textColorLink">@color/colorTextErrorDark</item>
+    </style>
+
+
+    <style name="MyButtonTextView">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorTextMainLight</item>
+    </style>
+
+<!--OLD-->
+
+
+
+    <style name="MyDialogBtn">
+        <item name="android:background">@color/colorDialogBackgroundLight</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorTextMainDark</item>
+    </style>
+
+    <style name="tv_text">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+
+    <style name="NotActiveText">
+        <item name="android:textColor">@color/colorTextSecondaryDark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="MyItalicInfo">
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/colorTextNotUsualyDark</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="MyTextAnswer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/colorTextMainDark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="questionDemoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginStart">4dp</item>
     </style>
 
 </resources>

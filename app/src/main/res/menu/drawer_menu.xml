@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/registrationFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Регистрация" />
+    <item
+        android:id="@+id/dictionaryFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Словарь" />
+    <item
+        android:id="@+id/examFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Тестирование" />
+    <item
+        android:id="@+id/libraryFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Библиотека" />
+    <item
+        android:id="@+id/statsFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Статистика" />
+    <item
+        android:id="@+id/readerFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Читать" />
+    <item
+        android:id="@+id/textLoaderFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Новый текст" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Профиль" />
+    <item
+        android:id="@+id/managerFragment"
+        android:icon="@drawable/dialog_add_black_24dp"
+        android:title="Менеджер пользователей" />
+</menu>

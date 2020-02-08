@@ -1,0 +1,108 @@
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/routes"
+    app:startDestination="@id/managerFragment">
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.easyreader3.presentation.fragments.RegistrationFragment"
+        android:label="Новый пользователь"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_examFragment"
+            app:destination="@id/examFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="com.example.easyreader3.presentation.fragments.DictionaryFragment"
+        android:label="Словарь"
+        tools:layout="@layout/fragment_dictionary" >
+        <action
+            android:id="@+id/action_dictionaryFragment_to_examFragment2"
+            app:destination="@id/examFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/examFragment"
+        android:name="com.example.easyreader3.presentation.fragments.ExamFragment"
+        android:label="Tecтирование"
+        tools:layout="@layout/fragment_exam" >
+        <action
+            android:id="@+id/action_examFragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.easyreader3.presentation.fragments.LibraryFragment"
+        android:label="Библиотека"
+        tools:layout="@layout/fragment_library" >
+        <action
+            android:id="@+id/action_libraryFragment_to_readerFragment"
+            app:destination="@id/readerFragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_textLoaderFragment"
+            app:destination="@id/textLoaderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.example.easyreader3.presentation.fragments.StatsFragment"
+        android:label="Статистика"
+        tools:layout="@layout/fragment_stats" />
+    <fragment
+        android:id="@+id/readerFragment"
+        android:name="com.example.easyreader3.presentation.fragments.ReaderFragment"
+        android:label="Читать"
+        tools:layout="@layout/fragment_reader" >
+        <action
+            android:id="@+id/action_readerFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/textLoaderFragment"
+        android:name="com.example.easyreader3.presentation.fragments.TextLoaderFragment"
+        android:label="Новый текст"
+        tools:layout="@layout/fragment_text_loader" >
+        <action
+            android:id="@+id/action_textLoaderFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment" />
+        <action
+            android:id="@+id/action_textLoaderFragment_to_readerFragment"
+            app:destination="@id/readerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.easyreader3.presentation.fragments.ProfileFragment"
+        android:label="Аккаунт" >
+        <action
+            android:id="@+id/action_profileFragment_to_statsFragment"
+            app:destination="@id/statsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_managerFragment"
+            app:destination="@id/managerFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_examFragment"
+            app:destination="@id/examFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/managerFragment"
+        android:name="com.example.easyreader3.presentation.fragments.ManagerFragment"
+        android:label="Менеджер профилей"
+        tools:layout="@layout/fragment_manager" >
+        <action
+            android:id="@+id/action_managerFragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+        <action
+            android:id="@+id/action_managerFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+</navigation>

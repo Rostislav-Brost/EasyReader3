@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <!--APP COLORS-->
+    <color name="colorPrimaryDark">#FF020F38</color>
+    <color name="colorPrimary">#FF003B5D</color>
+    <color name="colorAccent">#EF2001</color>
+    <!--Items-->
+    <color name="colorCardBackgroundDark">#020F38</color>
+    <color name="colorCardBackgroundLight">#FFFFFF</color>
+    <!--Progressbar-->
+    <color name="colorProgressbar">#FF020F38</color>
+    <!--Dialogs-->
+    <color name="colorDialogBackgroundLight">#FFFFFFFF</color>
+    <color name="colorDialogHintLight">#80FFFFFF</color>
+    <color name="colorDialogBackgroundDark">#FF020F38</color>
+    <color name="colorDialogHintDark">#80020F38</color>
+    <!--Notify-->
+
+
+    <!--TEXT COLORS-->
+    <!--light-->
+    <color name="colorTextMainLight">#FFFFFFFF</color>
+    <color name="colorTextLight">#BFFFFFFF</color>
+    <color name="colorTextSecondaryLight">#9AFFFFFF</color>
+    <color name="colorTextNotActiveLight">#80FFFFFF</color>
+    <color name="colorTextAgreeLight">#FF015700</color>
+    <color name="colorTextErrorLight">#FFEF2001</color>
+    <color name="colorTextWarningLight">#FFFFA800</color>
+    <color name="colorTextNotUsualyLight">#FF42216B</color>
+    <color name="colorTextLinkLight">#FF0324DF</color>
+    <!--dark-->
+    <color name="colorTextMainDark">#FF020F38</color>
+    <color name="colorTextDark">#BF020F38</color>
+    <color name="colorTextSecondaryDark">#9A020F38</color>
+    <color name="colorTextNotActiveDark">#80020F38</color>
+    <color name="colorTextAgreeDark">#FF023F01</color>
+    <color name="colorTextErrorDark">#FFC21900</color>
+    <color name="colorTextWarningDark">#FFCF8700</color>
+    <color name="colorTextNotUsualyDark">#FF42216B</color>
+    <color name="colorTextLinkDark">#FF390374</color>
 </resources>
