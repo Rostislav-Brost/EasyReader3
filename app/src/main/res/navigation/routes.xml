@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/dictionaryFragment"
-        android:name="com.example.easyreader3.presentation.fragments.DictionaryFragment"
+        android:name="com.example.easyreader3.presentation.fragments.dictionary.DictionaryFragment"
         android:label="Словарь"
         tools:layout="@layout/fragment_dictionary" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/examFragment"
-        android:name="com.example.easyreader3.presentation.fragments.ExamFragment"
+        android:name="com.example.easyreader3.presentation.fragments.exam.ExamFragment"
         android:label="Tecтирование"
         tools:layout="@layout/fragment_exam" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/libraryFragment"
-        android:name="com.example.easyreader3.presentation.fragments.LibraryFragment"
+        android:name="com.example.easyreader3.presentation.fragments.library.LibraryFragment"
         android:label="Библиотека"
         tools:layout="@layout/fragment_library" >
         <action
@@ -95,7 +95,7 @@
     </fragment>
     <fragment
         android:id="@+id/managerFragment"
-        android:name="com.example.easyreader3.presentation.fragments.ManagerFragment"
+        android:name="com.example.easyreader3.presentation.fragments.manager.ManagerFragment"
         android:label="Менеджер профилей"
         tools:layout="@layout/fragment_manager" >
         <action

@@ -1,34 +1,11 @@
-package com.example.easyreader3.bases
+package com.example.easyreader3.presentation.fragments.exam
 
-
-/*класс экзамена , принимает на вход список вопросов
-
-*
-*
-
-*
-* содержит
-* идентификатор
-* название
-* описание
-* финальный текст
-*
-* список вопросов
-* текуший номер вопроса
-* счетчик правильных ответов
-* счетчик неверных ответов
-*
-*Методы
-
-*
-* */
 class Exam(
     val title: String = "ExamTitle",
     val description: String = "This is text. You can type some info about exam here.Try It!",
     //   val id:Int=1,
     val resultText: String = "Wow It is result text!",
-    var questions: ArrayList<Question> = ArrayList<Question>(),
-    var currentQuestion: Int = 0
+    var questions: ArrayList<Question> = ArrayList<Question>()
 
 ) {
 
@@ -88,13 +65,13 @@ class Exam(
 
     //вернуть экзамен с неверными вопросами
     fun getFixWorkExam(): Exam {
-        var r: Exam = Exam(
-            title,
-            description,
-            resultText,
-            questions/*ВОТ ТУТ ВСТАВИТЬ СПИСОК НЕПРАВИЛЬНЫХ ВОПРОСОВ*/,
-            0
-        )
+        var r: Exam =
+            Exam(
+                title,
+                description,
+                resultText,
+                questions/*ВОТ ТУТ ВСТАВИТЬ СПИСОК НЕПРАВИЛЬНЫХ ВОПРОСОВ*/
+            )
 
         return r
     }

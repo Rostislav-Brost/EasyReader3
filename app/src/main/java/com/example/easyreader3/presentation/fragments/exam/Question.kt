@@ -1,4 +1,4 @@
-package com.example.easyreader3.bases
+package com.example.easyreader3.presentation.fragments.exam
 
 /*класс вопроса содержит
 * заголовок

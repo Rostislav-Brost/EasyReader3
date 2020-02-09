@@ -8,11 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.example.easyreader3.R
+import com.example.easyreader3.bases.BaseFragment
 
-/**
- * A simple [Fragment] subclass.
- */
-class TextLoaderFragment : Fragment() {
+
+class TextLoaderFragment : BaseFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

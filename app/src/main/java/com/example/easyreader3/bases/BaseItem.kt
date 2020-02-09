@@ -1,4 +1,4 @@
-package com.example.easyreader3.presentation.adapters
+package com.example.easyreader3.bases
 
 interface BaseItem {
     fun title(): String
