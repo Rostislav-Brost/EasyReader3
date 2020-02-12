@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorCardBackgroundLight"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/iet_title"
+        style="@style/MyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="@dimen/tv_paddingHorisontal"
+        android:text="Вводный тест"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextDark"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/sq_imageView6"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo1"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/iet_description"
+        style="@style/MyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:paddingHorizontal="@dimen/tv_paddingHorisontal"
+        android:text="Выберите правильный перевод слова из предложенных:"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextDark"
+        android:textStyle="bold" />
+
+</LinearLayout>

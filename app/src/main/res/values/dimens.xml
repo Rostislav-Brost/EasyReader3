@@ -2,4 +2,5 @@
 <resources>
     <dimen name="user_avatar_size">48dp</dimen>
     <dimen name="tv_paddingHorisontal">8dp</dimen>
+    <dimen name="recyclerFramePadding">8dp</dimen>
 </resources>

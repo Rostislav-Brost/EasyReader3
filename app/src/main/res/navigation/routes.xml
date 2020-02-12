@@ -6,20 +6,8 @@
     app:startDestination="@id/managerFragment">
 
     <fragment
-        android:id="@+id/registrationFragment"
-        android:name="com.example.easyreader3.presentation.fragments.RegistrationFragment"
-        android:label="Новый пользователь"
-        tools:layout="@layout/fragment_registration" >
-        <action
-            android:id="@+id/action_registrationFragment_to_examFragment"
-            app:destination="@id/examFragment" />
-        <action
-            android:id="@+id/action_registrationFragment_to_libraryFragment"
-            app:destination="@id/libraryFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/dictionaryFragment"
-        android:name="com.example.easyreader3.presentation.fragments.dictionary.DictionaryFragment"
+        android:name="com.example.easyreader3.presentation.fragments.DictionaryFragment"
         android:label="Словарь"
         tools:layout="@layout/fragment_dictionary" >
         <action
@@ -28,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/examFragment"
-        android:name="com.example.easyreader3.presentation.fragments.exam.ExamFragment"
+        android:name="com.example.easyreader3.presentation.fragments.ExamFragment"
         android:label="Tecтирование"
         tools:layout="@layout/fragment_exam" >
         <action
@@ -37,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/libraryFragment"
-        android:name="com.example.easyreader3.presentation.fragments.library.LibraryFragment"
+        android:name="com.example.easyreader3.presentation.fragments.LibraryFragment"
         android:label="Библиотека"
         tools:layout="@layout/fragment_library" >
         <action
@@ -46,15 +34,7 @@
         <action
             android:id="@+id/action_libraryFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
-        <action
-            android:id="@+id/action_libraryFragment_to_textLoaderFragment"
-            app:destination="@id/textLoaderFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/statsFragment"
-        android:name="com.example.easyreader3.presentation.fragments.StatsFragment"
-        android:label="Статистика"
-        tools:layout="@layout/fragment_stats" />
     <fragment
         android:id="@+id/readerFragment"
         android:name="com.example.easyreader3.presentation.fragments.ReaderFragment"
@@ -65,24 +45,9 @@
             app:destination="@id/dictionaryFragment" />
     </fragment>
     <fragment
-        android:id="@+id/textLoaderFragment"
-        android:name="com.example.easyreader3.presentation.fragments.TextLoaderFragment"
-        android:label="Новый текст"
-        tools:layout="@layout/fragment_text_loader" >
-        <action
-            android:id="@+id/action_textLoaderFragment_to_dictionaryFragment"
-            app:destination="@id/dictionaryFragment" />
-        <action
-            android:id="@+id/action_textLoaderFragment_to_readerFragment"
-            app:destination="@id/readerFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.easyreader3.presentation.fragments.ProfileFragment"
         android:label="Аккаунт" >
-        <action
-            android:id="@+id/action_profileFragment_to_statsFragment"
-            app:destination="@id/statsFragment" />
         <action
             android:id="@+id/action_profileFragment_to_dictionaryFragment"
             app:destination="@id/dictionaryFragment" />
@@ -95,14 +60,14 @@
     </fragment>
     <fragment
         android:id="@+id/managerFragment"
-        android:name="com.example.easyreader3.presentation.fragments.manager.ManagerFragment"
+        android:name="com.example.easyreader3.presentation.fragments.ManagerFragment"
         android:label="Менеджер профилей"
         tools:layout="@layout/fragment_manager" >
         <action
             android:id="@+id/action_managerFragment_to_libraryFragment"
             app:destination="@id/libraryFragment" />
         <action
-            android:id="@+id/action_managerFragment_to_registrationFragment"
-            app:destination="@id/registrationFragment" />
+            android:id="@+id/action_managerFragment_to_examFragment"
+            app:destination="@id/examFragment" />
     </fragment>
 </navigation>

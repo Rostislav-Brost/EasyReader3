@@ -2,8 +2,14 @@
 <resources>
     <!--APP COLORS-->
     <color name="colorPrimaryDark">#FF020F38</color>
-    <color name="colorPrimary">#FF003B5D</color>
+    <color name="colorPrimary">#003B5D</color>
     <color name="colorAccent">#EF2001</color>
+    <!--Screens-->
+    <color name="colorWindowBackgroundLight">#ffffff</color>
+    <color name="colorNavigationBarLight">#ffffff</color>
+    <color name="colorWindowBackgroundDark">#020F38</color>
+    <color name="colorNavigationBarDark">#020F38</color>
+
     <!--Items-->
     <color name="colorCardBackgroundDark">#020F38</color>
     <color name="colorCardBackgroundLight">#FFFFFF</color>
@@ -19,7 +25,7 @@
 
     <!--TEXT COLORS-->
     <!--light-->
-    <color name="colorTextMainLight">#FFFFFFFF</color>
+    <color name="colorTextMainLight">#FFFFFF</color>
     <color name="colorTextLight">#BFFFFFFF</color>
     <color name="colorTextSecondaryLight">#9AFFFFFF</color>
     <color name="colorTextNotActiveLight">#80FFFFFF</color>
@@ -27,7 +33,7 @@
     <color name="colorTextErrorLight">#FFEF2001</color>
     <color name="colorTextWarningLight">#FFFFA800</color>
     <color name="colorTextNotUsualyLight">#FF42216B</color>
-    <color name="colorTextLinkLight">#FF0324DF</color>
+    <color name="colorTextLinkLight">#0324DF</color>
     <!--dark-->
     <color name="colorTextMainDark">#FF020F38</color>
     <color name="colorTextDark">#BF020F38</color>
@@ -37,5 +43,5 @@
     <color name="colorTextErrorDark">#FFC21900</color>
     <color name="colorTextWarningDark">#FFCF8700</color>
     <color name="colorTextNotUsualyDark">#FF42216B</color>
-    <color name="colorTextLinkDark">#FF390374</color>
+    <color name="colorTextLinkDark">#390374</color>
 </resources>
